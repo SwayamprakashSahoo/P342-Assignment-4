@@ -26,7 +26,7 @@ void LUdecompose(int var, float mat[4][4])
 	}
 }
 
-//function to find the solution from the LU decomposition
+//function to find the solution from the LU decomposition using forward-backward substitution
 void LUsolution(int var, float mat[4][4], float constant[4], float sol[4])
 {
 	float y[4] = { 0 };
