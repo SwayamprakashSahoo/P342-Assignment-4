@@ -51,3 +51,27 @@ int main()
 		printf("\n x%d=%f\n", i + 1, sol[i]);
 	}
 }
+
+
+
+
+
+
+/**************OUTPUT***************************************
+Please enter the number of variables in the equations: 4
+Matrix representation for given set of equations is:
+  1 0 1 2   x1 = 6.000000
+  0 1 -2 0   x2 = -3.000000
+  1 2 -1 0   x3 = -2.000000
+  2 1 3 -2   x4 = 0.000000
+
+Using the method of LU decomposition, the solution is:
+
+ x1=1.000000
+
+ x2=-1.000000
+
+ x3=1.000000
+
+ x4=2.000000
+ ************************************************************/
